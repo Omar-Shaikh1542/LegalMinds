@@ -247,7 +247,7 @@ input{
     text-align: center;
 }
 @media screen and (max-width: 500px){
-    .footer-section h5{
+    .footer-section h2{
         font-size: 75%;
     }
 

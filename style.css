@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* overflow: hidden; */
+    /* background-color: #007bff; */
+    background-color: #2f3fb1;
+
+}
+.navigation{
+    margin-left: 5rem;
+    margin-top: 0;
+    
+    height: 5.5rem;
+    background-color: #2f3fb1;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.down-logo{
+    height: 5rem;
+    color: rgb(250, 250, 250);
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: #2057c4;
+    box-shadow: 0px 0px 10px #283596;
+    
+}
+@media screen and (max-width: 750px){
+    .navigation{
+        margin-left: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+.down-logo h1{
+    font-size: 2.3rem;
+}
+.down-logo img{
+    width: 4rem;
+}
+.down-logo sup{
+    font-weight: 400;
+}
+@media screen and (max-width: 440px){
+    .down-logo{
+        height: 10vh;
+        width: 15rem;
+    }
+
+    .down-logo h1{
+        font-size: 1.8rem;
+
+    }
+    .down-logo img{
+        width: 3rem;
+    }
+    
+
+}
+.banner-section{
+    background-color: #2f3fb1;
+    color: aliceblue;
+}
+.container{
+    margin: 5% auto;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.sub-title h4{
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+.sub-text h4{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+.input-content{
+    padding-bottom: 8%;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.name{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.email{
+    width: 33rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    border-style: none;
+    margin: 2% auto;
+    margin-bottom: 0%;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 680px){
+    .name{
+        width: 30rem;
+    }
+    .email{
+        width: 30rem;
+    }
+
+}
+@media screen and (max-width: 555px){
+    .name{
+        width:  20rem;
+    }
+    .email{
+        width:  20rem;
+    }
+    .title h1{
+        font-size: 3rem;
+    }
+    .sub-title h4{
+        font-size: medium;
+    }
+    .sub-text h4{
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 380px){
+    .name{
+        width:  15rem;
+    }
+    .email{
+        width:  15rem;
+    }
+    .title h1{
+        font-size: 3rem;
+    }
+    .sub-title h4{
+        font-size: small;
+    }
+    .sub-text h4{
+        font-size: small;
+    }
+}
+input{
+    padding: 10px;
+}
+.form p{
+    font-size: small;
+}
+
+.button-section{
+    margin: 1% auto;
+    width: 50%;
+}
+.button{
+    margin: 1%;
+    width: 7rem;
+    border-radius: 7px;
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(250, 250, 250);
+    background-color: #007bff;
+    border-style: none;
+}
+.feature{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.feature-title{
+    text-align: center;
+    padding: 2% ;
+}
+.feature-title h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #0056b3;
+
+}
+.featured-parties{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2% ;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.image{
+    padding: 0;
+    margin: 0;
+}
+.featured-parties img{
+    width: 40%;
+    
+}
+.image img{
+    margin: 5% auto;
+    padding: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.foot{
+    background-color: #ffffff;
+    padding: 1px;
+}
+.footer-section h5{
+    background-color: #ffffff;
+
+    font-size: 100%;
+    font-weight: 400;
+    color: #0056b3;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    .footer-section h5{
+        font-size: 75%;
+    }
+
+}
